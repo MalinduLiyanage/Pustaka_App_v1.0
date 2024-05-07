@@ -6,8 +6,8 @@
 
 ### Screenshots
 
-<img src="https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/427425f4-1af3-4c09-be6c-f5aeaffeb6ee" alt="Image 1" width="280" height="480">
-<img src="https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/d7b2d654-11a7-44cd-8aa2-30e4b3deedfc" alt="Image 2" width="280" height="480">
+<img src="https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/427425f4-1af3-4c09-be6c-f5aeaffeb6ee" alt="Image 1" width="250" height="480">
+<img src="https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/d7b2d654-11a7-44cd-8aa2-30e4b3deedfc" alt="Image 2" width="250" height="480">
 <img src="https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/9c4d54e3-c7e7-4e26-882e-0ffcdef144f7" alt="Image 3" width="280" height="480">
 <img src="https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/e51c697d-677f-4659-b3e5-b62235b280d1" alt="Image 4" width="280" height="480">
 <img src="https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/da123015-9894-4cf7-8994-fa3501a3690b" alt="Image 5" width="280" height="480">
