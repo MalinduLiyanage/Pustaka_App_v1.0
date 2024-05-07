@@ -27,9 +27,14 @@ Picasso Image loader - <a href="https://square.github.io/picasso/">https://squar
 2024.05.07
 
 ### Known Issues
-1. No method to check for Internet connectivity for loading initial book thumbs
+1. No method to check for Internet connectivity for loading initial book thumbs.
+
+### If there is an Exporting issue
+When you download this project and working with Android Studio, sometimes it may say JDK compilation errors.<br>
+In that case, Close the project, Go to the project directory and delete .gradle directory and .idea directory, get back and re-open the project using the IDE.
+Also try to open the project as a Trusted Project, if you prefer.
 
 ### About
-This app is a development assignment for Mabile App development course
-Faculty of Applied Sciences
-Rajarata University of Sri Lanka
+This app is a development assignment for Mabile App development course.
+Faculty of Applied Sciences,
+Rajarata University of Sri Lanka.
