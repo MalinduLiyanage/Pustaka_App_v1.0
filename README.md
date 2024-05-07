@@ -20,8 +20,8 @@
 The app has a built in SQLite DB that stores data within the device. There is no any internet based DB here, all the operations are done in locally.
 
 ### Used libraries
-OpenStreetMap and Nominatim 
-Picasso Image loader
+OpenStreetMap and Nominatim - [](https://github.com/osmdroid/osmdroid)<br>
+Picasso Image loader - [](https://square.github.io/picasso/)<br>
 
 ### Last update
 2024.05.07
