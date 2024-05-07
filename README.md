@@ -15,6 +15,6 @@
 ![7](https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/f687ee2f-1f06-4f45-b68f-25fcbfcb61b2)
 ![8](https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/ae473025-e0bb-4d40-bb22-df24a000484c)
 ![9](https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/00b54ed4-d13f-495a-abe6-988a8052dc03)
-<img src="[https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/00b54ed4-d13f-495a-abe6-988a8052dc03]" alt="Image" width="480" height="900">
+<img src="https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/00b54ed4-d13f-495a-abe6-988a8052dc03" alt="Image" width="480" height="900">
 
 
