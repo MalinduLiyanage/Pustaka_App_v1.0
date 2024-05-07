@@ -1,7 +1,7 @@
 # Pustaka App v1.0 
-<img src="https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/136006504/b4f452a2-a4b2-4e73-b96d-1fcff0bf96ba" alt="logo">
+<img src="https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/792a2f50-4294-41d1-bb7a-07b00c9dfc99" alt="logo">
 
-# A simple Android app with SQLite, OpenStreetMap, Nominatim, Picasso, implementations
+# A simple Android app with SQLite, OpenStreetMap, Nominatim, Picasso implementations
 *By Malindu Liyanage
 
 ### Screenshots
@@ -16,5 +16,20 @@
 <img src="https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/ae473025-e0bb-4d40-bb22-df24a000484c" alt="Image 8" width="250" height="480">
 <img src="https://github.com/MalinduLiyanage/Pustaka_App_v1.0/assets/136006504/00b54ed4-d13f-495a-abe6-988a8052dc03" alt="Image 9" width="250" height="480">
 
+### Overview
+The app has a built in SQLite DB that stores data within the device. There is no any internet based DB here, all the operations are done in locally.
 
+### Used libraries
+OpenStreetMap and Nominatim 
+Picasso Image loader
 
+### Last update
+2024.05.07
+
+### Known Issues
+1. No method to check for Internet connectivity for loading initial book thumbs
+
+### About
+This app is a development assignment for Mabile App development course
+Faculty of Applied Sciences
+Rajarata University of Sri Lanka
