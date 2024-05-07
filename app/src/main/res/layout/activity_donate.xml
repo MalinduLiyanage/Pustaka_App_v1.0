@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".DonateActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="5dp"
+                    app:srcCompat="@drawable/pustaka_logo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Donate a Book"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25sp"
+                        tools:layout_editor_absoluteX="55dp"
+                        tools:layout_editor_absoluteY="360dp" />
+
+                    <TextView
+                        android:id="@+id/lib_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Library ID : "
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="55dp"
+                        tools:layout_editor_absoluteY="390dp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Book Thumbnail"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/poppins_bold"
+                    android:maxLines="1">
+                </TextView>
+
+                <ImageButton
+                    android:id="@+id/book_thumb"
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/edittext_background"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/pustaka_logo"
+                    android:inputType="text"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Book Title"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/poppins_bold"
+                    android:maxLines="1">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/book_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins"
+                    android:hint="Enter the Book Title"
+                    android:paddingStart="16dp"
+                    android:inputType="text"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Author"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/poppins_bold"
+                    android:maxLines="1">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/book_author"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins"
+                    android:hint="Enter Author Name "
+                    android:paddingStart="16dp"
+                    android:inputType="text"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/poppins_bold"
+                    android:maxLines="1">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/book_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins"
+                    android:hint="A brief description"
+                    android:paddingStart="16dp"
+                    android:inputType="text"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ISBN"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/poppins_bold"
+                    android:maxLines="1">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/book_isbn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:maxLength="13"
+                    android:fontFamily="@font/poppins"
+                    android:hint="ISBN"
+                    android:paddingStart="16dp"
+                    android:inputType="number"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Page Count"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/poppins_bold"
+                    android:maxLines="1">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/book_pages"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:maxLength="4"
+                    android:fontFamily="@font/poppins"
+                    android:hint="Pages Count"
+                    android:paddingStart="16dp"
+                    android:inputType="number"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Publisher"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/poppins_bold"
+                    android:maxLines="1">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/book_publisher"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins"
+                    android:hint="Publisher Info"
+                    android:paddingStart="16dp"
+                    android:inputType="text"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Number of Copies"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/poppins_bold"
+                    android:maxLines="1">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/book_copies"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins"
+                    android:hint="Copies Count"
+                    android:paddingStart="16dp"
+                    android:maxLength="2"
+                    android:inputType="number"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_donate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Donate Book!"
+                    android:textColor="@color/colorAccent"
+                    app:cornerRadius="10sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

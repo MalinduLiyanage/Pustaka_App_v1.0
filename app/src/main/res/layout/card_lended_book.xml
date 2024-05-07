@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/lend_title"
+                android:maxLines="1"
+                android:maxLength="20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Madol Doova MArtin "
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/poppins_bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:text="Lended on: "
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/lend_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:maxLength="19"
+                android:maxLines="1"
+                android:text="Date"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/edittext_background"
+            android:layout_margin="15dp">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <ImageButton
+                android:id="@+id/returnbook_btn"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="fitCenter"
+                android:background="#FFFFFF"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_return"
+                android:fontFamily="@font/poppins_bold">
+
+            </ImageButton>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
