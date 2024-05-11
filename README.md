@@ -19,6 +19,18 @@
 ### Overview
 The app has a built in SQLite DB that stores data within the device. There is no any internet based DB here, all the operations are done in locally.
 
+### Features
+1. Handle user sessions
+2. Handle user ID with SMS access (Demonstration to realworld apps)
+3. Greeting message according to real time (Good Morning for 12 AM to 11.59 AM, etc)
+4. Cards for each book + Thumbnails with caching
+5. The UI updates with every DB update
+6. Activity Lifecycle management
+7. Modern UI + App icons
+8. Textwatcher for book search + realtime update
+9. New books can be donated with or w/o thumbnails, Thumbs are saved in Appdata
+10. Custom Toast Messages with CuteToast
+
 ### Used libraries
 OpenStreetMap and Nominatim - <a href="https://github.com/osmdroid/osmdroid">https://github.com/osmdroid/osmdroid</a><br>
 Picasso Image loader - <a href="https://square.github.io/picasso/">https://square.github.io/picasso/</a><br>
